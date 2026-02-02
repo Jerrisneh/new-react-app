@@ -1,0 +1,68 @@
+.user-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.user-card {
+  width: 380px;
+  padding: 35px 40px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.user-card h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.loading {
+  font-size: 20px;
+  color: #00ffd5;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.info-row {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 14px 18px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.info-row span {
+  font-size: 13px;
+  color: #00ffd5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-row p {
+  margin-top: 4px;
+  font-size: 17px;
+  font-weight: 600;
+}

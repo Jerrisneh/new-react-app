@@ -1,6 +1,6 @@
-import Counter from "./Counter";
-import TodoList from "./TodoList";
-import UserData from "./userData";
+import Counter from "./components/Counter";
+import TodoList from "./components/TodoList";
+import UserData from "./components/UserData";
 
 export default function App() {
   return (
